@@ -1,0 +1,15 @@
+#:kivy 1.9.1
+
+<RootWidget>:
+    img: img
+    btn: btn
+
+    Image:
+        id: img
+        source: '/home/christoph/PycharmProjects/smartcam/fragezeichen.jpg'
+
+    Button:
+        id: btn
+        text: 'Bild aufnehmen'
+        size_hint: [1, 0.1]
+        on_press: root.btn_pressed()
