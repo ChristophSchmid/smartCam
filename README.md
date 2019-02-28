@@ -6,7 +6,7 @@ So here is my solution for the topic based on the S3 mini. For other Android sma
 
 # Installation
 
-The old phone is turned into a TCP Server using a Python script which is run on the phone using the qPython3 app. It then waits for a signal over the Wifi to take a picture and send it back to the client. In my code, the flash is always used (cellar ...), but this can be changed as needed. On your Wifi router, set the smartCam phone to a static IP, if you don't want to keep changing the IP in the client script.
+The old phone is turned into a TCP Server using a Python script which is run on the phone using the qPython3 app. It then waits for a signal over the Wifi to take a picture and send it back to the client. In my code, the flash is always used (cellar ...), but this can be changed as needed. You will, however, need a rooted phone for the flash functionality. On your Wifi router, set the smartCam phone to a static IP, if you don't want to keep changing the IP in the client script.
 
 The client software is also a Python app using Kivy to generate a user interface. So you will need to install Kivy before you can use the app as is. Also, in the script of the client, you will need to change the IP of the camera to the one you assigned to it in your Wifi router.
 
